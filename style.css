@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bg-light{
+    background-color: black !important;
+    height: 80px;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Makes the text white */
+  }
+
+  .image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    padding: 0%;
+
+  }
+  .mytext{
+    background: rgb(0, 0, 0);
+    height: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5; /* Adjusts line spacing */
+    font-size: 64px; /* Adjust size for clarity */
+    color: white; /* Optional: Ensures text is visible on a dark background */
+    }
+      
+
+  
+  .center-fizz {
+    display: block; /* Ensures "FIZZ" is treated as its own block */
+    margin-top: 10px; /* Adds spacing between "NEW APPY" and "FIZZ" */
+    font-size: 64px; /* Increases the size of "FIZZ" */
+    font-weight: bold; /* Makes "FIZZ" stand out */
+  }
+  .container-heading{
+    display: flex;
+   
+  }
+
+  .myparagraph{
+    width: 50%;
+    padding: 100px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .heading h1{
+    z-index: 10000000;
+    font-size: 80px;
+    font-weight: 800px;
+    text-align: center;
+    font-family: 'EksellDisplayWeb-Small';
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container-heading{
+        display: block;
+       
+      }
+      .mytext{
+        width: 100%;
+      }
+      .myparagraph{
+        width: 100%;
+      }
+
+  }
+
+  @media (max-width: 768px) {
+    .container-heading{
+        display: block;
+       
+      }
+      .mytext{
+        width: 100%;
+      }
+      .myparagraph{
+        width: 100%;
+      }
+
+  }
+
+.row{
+    font-size: smaller;
+}
+.dropdown-menu{
+  background-color: red;
+}
+.dropdown-item{
+  color: white;
+}
